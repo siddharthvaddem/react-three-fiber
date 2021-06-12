@@ -32,7 +32,7 @@ const App = () => {
   const [option,setOption]=useState('Choose a Box');
   const [display,setDisplay]=useState('');
   const [clear,setClear]=useState('');
-  const gifts=['Iphone 11','Jordan University Red','Nokia 7','Netflix Subscription','Equinox 1 Year','Cartier','Chuck Taylor','Rick Owens','10$','Disneyland','Trip to mars','Africa Safari']
+  const gifts=['Richard Millie','Jordan University Red','Nokia 7','Netflix Subscription','Equinox 1 Year','Cartier','Chuck Taylor','Rick Owens','10$','Disneyland','Trip to mars','Africa Safari']
   const revealGift=()=>{
         if(option==='Choose a Box')
         setDisplay('Must choose before reveal');
